@@ -5,88 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doc</title>
+        <link rel="stylesheet" href="./Progect/style/style.css">
 </head>
 <body>
-   <header>
+   <header class="container header flex"> 
     <div>
-        <img src="./img/logo.svg" alt="logo">
+        <img src="./Progect/img/logo.svg" alt="logo">
     </div>
-    <nav>
-        <ul>
-            <li>
-                <a href="#">
+    <nav class="header_nav">
+        <ol class="header_ol">
+            <li class="header_li">
+                <a class="header_link" href="#">
                     Why Qubit?
                 </a>
             </li>
-            <li>
-                <a href="#">
+            <li class="header_li">
+                <a class="header_link" href="#">
                     Products
                 </a>
             </li>
-            <li>
-                <a href="#">
+            <li class="header_li">
+                <a class="header_link" href="#">
                     Solutions
                 </a>
-            </li>
+            </li  class="header_li">
             <li>
-                <a href="#">
+                <a class="header_link" href="#">
                     Customers
                 </a>
             </li>
-        </ul>
+        </ol>
     </nav>
     <div>
-        <button>
+        <button class="button">
             Book a demo
         </button>
     </div>
    </header>
-   <section>
+   <section class="main">
+    <div class="container flex">
     <div>
-        <h1>
-            Make ecommerce <br>
-            <span>More personal.</span>
+        <h1 class="main_title">
+            Make ecommerce 
+            <span class="main_title main_title-violet"> More personal.</span>
         </h1>
-        <p>
-            Hundreds of brands use <b> Qubit CommerceAI</b>  to power the next generation of product recommendations, badging and insights to build exceptional customer experiences.
+        <p class="main_text">
+            Hundreds of brands use <span class="main_text-bold"> Qubit CommerceAI</span>  to power the next generation of product recommendations, badging and insights to build exceptional customer experiences.
         </p>
         <form>
-            <input type="email" placeholder="Enter your email">
-            <button>Book a demo</button>
+            <input class="main_input" type="email" placeholder="Enter your email">
+            <button class="button main_button">Book a demo</button>
         </form>
     </div>
     <div>
-        <img src="./img/IMAGE.svg" alt="hand">
+        <img src="./Progect/img/IMAGE.svg" alt="hand">
     </div>
    </section>
-   <footer>
-    <div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">
+   <footer class="footer">
+    <div class="container flex">
+        <nav class="footer_nav">
+            <ul class="footer_ul">
+                <li class="footer_li">
+                    <a class="footer_link" href="#">
                         Featured Capabilities
                     </a>
                 </li>
-                <li>
-                    <a href="#">
+                <li class="footer_li">
+                    <a class="footer_link" href="#">
                         Products
                     </a>
                 </li>
-                <a href="#">
+                <a class="footer_link" href="#">
                     Resources
                 </a>
-                <li>
-                    <a href="#">
+                <li class="footer_li">
+                    <a class="footer_link" href="#">
                         Company
                     </a>
                 </li>
             </ul>
         </nav>
+       
+        <button class="button">
+            Book a demo
+        </button>
     </div>
-    <button>
-        Book a demo
-    </button>
+    
    </footer>
 </body>
 </html>
